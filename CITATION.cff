@@ -8,7 +8,7 @@ authors:
     given-names: Artem
 license: MIT
 # Replace the placeholder with the actual repository URL before publishing.
-repository-code: "https://github.com/your-username/controlled-randomness"
+repository-code: "https://github.com/ArtyomTJ/Controlled-Randomness-v1.0.0"
 abstract: >-
   A research program on selection, observation, and randomness. Version 1.0
   provides a formal model, a reference implementation, a paired null
