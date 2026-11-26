@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch
+*.log
+*.tmp
+scratch/

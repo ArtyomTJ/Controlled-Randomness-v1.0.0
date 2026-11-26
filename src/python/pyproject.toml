@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crlab"
+version = "1.0.0"
+description = "Controlled Randomness reference implementation and analysis tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Artem Larin" }]
+keywords = ["randomness", "preregistration", "quantum-rng", "psychokinesis"]
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+
+[project.scripts]
+crlab = "crlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["crlab*"]

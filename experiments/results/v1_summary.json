@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "lo": -20,
+  "hi": 20,
+  "trials_per_target": 10000,
+  "seed0": 1000003,
+  "targets": [
+    {
+      "target": [
+        17,
+        19
+      ],
+      "trials_per_arm": 10000,
+      "mismatches": 0,
+      "control": {
+        "n": 10000,
+        "mean": 1702.6223,
+        "sd": 1720.8451954959214,
+        "min": 1,
+        "max": 16535
+      },
+      "select": {
+        "n": 10000,
+        "mean": 1702.6223,
+        "sd": 1720.8451954959214,
+        "min": 1,
+        "max": 16535
+      },
+      "theory": {
+        "mean": 1681.9237814477108,
+        "sd": 1681.423707105951
+      },
+      "elapsed_seconds": 39.31,
+      "csv": "experiments\\results\\v1_paired_17_19.csv"
+    },
+    {
+      "target": [
+        -13,
+        -7
+      ],
+      "trials_per_arm": 10000,
+      "mismatches": 0,
+      "control": {
+        "n": 10000,
+        "mean": 1667.4165,
+        "sd": 1681.7768570673836,
+        "min": 1,
+        "max": 15896
+      },
+      "select": {
+        "n": 10000,
+        "mean": 1667.4165,
+        "sd": 1681.7768570673836,
+        "min": 1,
+        "max": 15896
+      },
+      "theory": {
+        "mean": 1679.821376720901,
+        "sd": 1679.3213022860702
+      },
+      "elapsed_seconds": 38.52,
+      "csv": "experiments\\results\\v1_paired_-13_-7.csv"
+    }
+  ]
+}

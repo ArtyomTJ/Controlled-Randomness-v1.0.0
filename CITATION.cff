@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or protocol, please cite it as below."
+title: "Controlled Randomness"
+version: 1.0.0
+date-released: 2026-11-26
+authors:
+  - family-names: Larin
+    given-names: Artem
+license: MIT
+# Replace the placeholder with the actual repository URL before publishing.
+repository-code: "https://github.com/your-username/controlled-randomness"
+abstract: >-
+  A research program on selection, observation, and randomness. Version 1.0
+  provides a formal model, a reference implementation, a paired null
+  experiment, and a preregistered protocol for testing whether a conscious
+  observer can bias a live physical random source.
+keywords:
+  - randomness
+  - selection
+  - observer effect
+  - quantum random number generator
+  - preregistration
+  - reproducibility
